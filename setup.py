@@ -23,19 +23,19 @@ def package_data(pkg, roots):
 
 
 setup(
-    name='simplexblock-xblock',
-    version='0.1',
-    description='simplexblock XBlock',
-    license='UNKNOWN',
+    name="simplexblock-xblock",
+    version="0.1",
+    description="simplexblock XBlock",
+    license="UNKNOWN",
     packages=[
-        'simplexblock',
+        "simplexblock",
     ],
     install_requires=[
-        'XBlock',
+        "XBlock",
     ],
     entry_points={
-        'xblock.v1': [
-            'simplexblock = simplexblock:SimpleXBlock',
+        "xblock.v1": [
+            "simplexblock = simplexblock:SimpleXBlock",
         ]
     },
     package_data=package_data("simplexblock", ["static", "public"]),
