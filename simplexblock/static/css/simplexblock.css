@@ -1,0 +1,9 @@
+/* CSS for SimpleXBlock */
+
+.simplexblock_block .count {
+    font-weight: bold;
+}
+
+.simplexblock_block p {
+    cursor: pointer;
+}
